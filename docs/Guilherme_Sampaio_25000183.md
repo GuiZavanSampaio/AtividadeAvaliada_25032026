@@ -142,7 +142,8 @@ Registrar venda a prazo
 
 
 
-Diagrama coloquei abaixo pois estava dando problema colocar no meio estava sobrepondo as frases uma sob as outras 
+
+"Diagrama coloquei abaixo pois estava dando problema colocar no meio estava sobrepondo as frases uma sob as outras"
 
 
 

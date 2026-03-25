@@ -81,21 +81,6 @@ Emitir comprovante
 Fazer login
 Cancelar venda
 
-
-
-
-
-
-
-<img width="851" height="483" alt="image" src="https://github.com/user-attachments/assets/090bb859-1eb2-4531-a5e7-8ee6dd466700" />
-
-
-
-
-
-
-
-
 ---
 
 6. Documentação dos Casos de Uso
@@ -153,3 +138,14 @@ Emitir comprovante
 
 Extend:
 Registrar venda a prazo
+
+
+
+
+Diagrama coloquei abaixo pois estava dando problema colocar no meio estava sobrepondo as frases uma sob as outras 
+
+
+
+
+<img width="851" height="483" alt="image" src="https://github.com/user-attachments/assets/d9266085-7adc-41b8-9156-6b93713852e9" />
+

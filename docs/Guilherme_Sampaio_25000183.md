@@ -72,25 +72,55 @@ RNF04 — O sistema deve armazenar os dados corretamente
 
 Cadastrar cliente
 
+
+<img width="427" height="578" alt="image" src="https://github.com/user-attachments/assets/1639178b-d03c-45db-b53e-3d18c3a35286" />
+
 Consultar produto
+
+
+<img width="508" height="422" alt="image" src="https://github.com/user-attachments/assets/006acbe7-a22c-46d5-ab8f-9ff03b6b99e3" />
 
 Cadastrar produto
 
+
+<img width="382" height="506" alt="image" src="https://github.com/user-attachments/assets/9d68c98a-1cb3-4372-982f-b1648cedfec2" />
+
 Realizar venda
+
+
+<img width="473" height="845" alt="image" src="https://github.com/user-attachments/assets/04df231f-8573-4e47-b6ce-38297ed8a34d" />
 
 Verificar estoque
 
+
+<img width="508" height="367" alt="image" src="https://github.com/user-attachments/assets/85f22cec-bfb0-4c20-9dfa-6c064d4a7af6" />
+
 Registrar venda a prazo
+
+
+<img width="251" height="413" alt="image" src="https://github.com/user-attachments/assets/239dc6c8-baa2-4ebf-967f-ba5fbcc47b1b" />
 
 Atualizar estoque
 
+
+<img width="259" height="451" alt="image" src="https://github.com/user-attachments/assets/554bfcdc-f821-42ee-97f6-ac024fe6bb43" />
+
+
 Emitir comprovante
+
+
+<img width="317" height="312" alt="image" src="https://github.com/user-attachments/assets/888acd73-1a8c-479b-9101-0deae9883095" />
+
 
 Fazer login
 
+
+<img width="270" height="422" alt="image" src="https://github.com/user-attachments/assets/1415677b-e4c8-4901-85c4-d508fc1eec9d" />
+
+
 Cancelar venda
 
-<img width="851" height="483" alt="image" src="https://github.com/user-attachments/assets/9f6bbafd-e047-4e50-ba7a-ecdb36284bd7" />
+<img width="434" height="477" alt="image" src="https://github.com/user-attachments/assets/19a2373d-f394-4a1c-a05c-99e2649ae390" />
 
 
 6. Documentação dos Casos de Uso

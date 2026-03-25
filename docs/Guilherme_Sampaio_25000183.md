@@ -81,8 +81,6 @@ Emitir comprovante
 Fazer login
 Cancelar venda
 
-<img width="851" height="483" alt="image" src="https://github.com/user-attachments/assets/d2757739-b4b5-468a-880d-0a621293ff93" />
-
 
 ---
 

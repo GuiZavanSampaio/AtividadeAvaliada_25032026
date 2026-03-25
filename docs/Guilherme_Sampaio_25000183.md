@@ -71,13 +71,21 @@ RNF04 — O sistema deve armazenar os dados corretamente
 5. Casos de Uso
 
 Cadastrar cliente
+
 Consultar produto
+
 Cadastrar produto
+
 Realizar venda
+
 Verificar estoque
+
 Registrar venda a prazo
+
 Atualizar estoque
+
 Emitir comprovante
+
 Fazer login
 Cancelar venda
 

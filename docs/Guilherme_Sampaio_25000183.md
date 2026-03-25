@@ -123,6 +123,13 @@ Cancelar venda
 <img width="434" height="477" alt="image" src="https://github.com/user-attachments/assets/19a2373d-f394-4a1c-a05c-99e2649ae390" />
 
 
+Diagrama Geral
+
+
+<img width="851" height="483" alt="image" src="https://github.com/user-attachments/assets/4f6743c4-8462-4039-a4f4-542101588319" />
+
+
+
 6. Documentação dos Casos de Uso
 
 UC01 — Realizar Venda

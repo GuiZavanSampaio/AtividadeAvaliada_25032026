@@ -1,61 +1,74 @@
 Avaliação — Engenharia de Software
-Sistema Integrado de Gestão de Farmácia — MVP
+Sistema Integrado de Gestão de Farmácia — MVP Definido pelo Estudante
 
 Aluno: Guilherme Sampaio
 RA: 25000183
 Data: 25/03/2026
 
-Definição do MVP
+---
 
-Meu MVP foca na parte de vendas da farmácia, que é o principal uso no dia a dia. Ele cobre desde identificar ou cadastrar o cliente até finalizar a venda.
+1. Definição do MVP
 
-Dentro do MVP estão as funções de cadastrar cliente, consultar produto, realizar venda, verificar estoque e emitir comprovante.
+Meu MVP cobre o processo de venda desde a identificação ou cadastro do cliente até a emissão do comprovante, incluindo a verificação de estoque.
 
-Fora do MVP eu deixei coisas mais avançadas como relatórios completos, controle financeiro mais detalhado e integração com fornecedores.
+O que está dentro do MVP:
+Cadastro de cliente, consulta de produto, realização de venda, verificação de estoque, atualização de estoque e emissão de comprovante.
 
-Escolhi isso porque a venda é o mais importante no funcionamento da farmácia e já resolve boa parte dos problemas básicos.
+O que está fora do MVP:
+Relatórios mais completos, controle financeiro detalhado, integração com fornecedores e controle de usuários.
 
-Regras de Negócio
+Por que você fez essas escolhas:
+Escolhi focar na parte de vendas porque é a principal função da farmácia no dia a dia e já resolve boa parte dos problemas básicos.
 
-RN01 — Não pode vender produto sem estoque
+---
 
-RN02 — Toda venda diminui o estoque automaticamente
+2. Regras de Negócio
 
-RN03 — Venda a prazo gera conta a receber
+RN01 — Não é permitido vender produtos sem estoque disponível
 
-RN04 — Cliente pode ser cadastrado na hora
+RN02 — Toda venda realizada deve diminuir automaticamente o estoque
 
-RN05 — Sistema deve avisar quando não tem estoque suficiente
+RN03 — Vendas a prazo devem gerar uma conta a receber
 
-Requisitos Funcionais
+RN04 — O cliente pode ser cadastrado durante a venda
 
-RF01 — Cadastrar cliente
+RN05 — O sistema deve avisar quando o estoque for insuficiente
 
-RF02 — Consultar produto
+---
 
-RF03 — Cadastrar produto
+3. Requisitos Funcionais
 
-RF04 — Realizar venda
+RF01 — O sistema deve permitir cadastrar clientes
 
-RF05 — Verificar estoque antes da venda
+RF02 — O sistema deve permitir consultar produtos
 
-RF06 — Registrar venda a prazo
+RF03 — O sistema deve permitir cadastrar produtos
 
-RF07 — Atualizar estoque automaticamente
+RF04 — O sistema deve permitir realizar vendas
 
-RF08 — Emitir comprovante de venda
+RF05 — O sistema deve verificar o estoque antes da venda
 
-Requisitos Não Funcionais
+RF06 — O sistema deve permitir registrar vendas a prazo
 
-RNF01 — Sistema deve ser fácil de usar
+RF07 — O sistema deve atualizar o estoque automaticamente
 
-RNF02 — Sistema deve responder rápido
+RF08 — O sistema deve emitir comprovante de venda
 
-RNF03 — Deve funcionar em computador comum
+---
 
-RNF04 — Deve armazenar os dados corretamente
+4. Requisitos Não Funcionais
 
-Casos de Uso
+RNF01 — O sistema deve ser fácil de usar
+
+RNF02 — O sistema deve ter resposta rápida
+
+RNF03 — O sistema deve funcionar em computadores comuns
+
+RNF04 — O sistema deve armazenar os dados corretamente
+
+---
+
+5. Casos de Uso
 
 Cadastrar cliente
 Consultar produto
@@ -68,47 +81,62 @@ Emitir comprovante
 Fazer login
 Cancelar venda
 
+*colocar o diagrama do vscode não esquecer*
 
-Documentação dos Casos de Uso
+---
+
+6. Documentação dos Casos de Uso
 
 UC01 — Realizar Venda
 
-Ator: Atendente
+Ator(es):
+Atendente
 
 Descrição:
-Permite registrar a venda de produtos para um cliente
+Permite que o atendente registre a venda de produtos para um cliente
 
 Pré-condições:
 Sistema funcionando
 Produto cadastrado
 
 Pós-condições:
-Venda registrada
+Venda registrada no sistema
 Estoque atualizado
 
-Fluxo principal
+---
 
-Atendente inicia a venda
-Informa ou cadastra o cliente
-Seleciona o produto
-Sistema verifica o estoque
-Informa a quantidade
-Sistema calcula o valor
-Confirma a venda
-Sistema registra a venda
-Sistema atualiza o estoque
-Sistema emite comprovante
+Fluxo Principal
 
-Fluxos alternativos
+1. Atendente inicia a venda
+2. Sistema solicita o cliente
+3. Atendente informa ou cadastra o cliente
+4. Atendente seleciona o produto
+5. Sistema verifica o estoque
+6. Atendente informa a quantidade
+7. Sistema calcula o valor
+8. Atendente confirma a venda
+9. Sistema registra a venda
+10. Sistema atualiza o estoque
+11. Sistema emite comprovante
 
-FA01 — Sem estoque
-Sistema informa que não tem produto suficiente
+---
+
+Fluxos Alternativos / Exceções
+
+FA01 — Produto sem estoque
+O sistema informa que não há quantidade disponível
 
 FA02 — Cliente não cadastrado
-Permite cadastrar o cliente na hora
+O sistema permite cadastrar o cliente na hora
+
+---
 
 Relacionamentos
 
-Include: verificar estoque, fazer comprovante
+Include:
+Verificar estoque
+Atualizar estoque
+Emitir comprovante
 
-Extend: registrar venda a prazo
+Extend:
+Registrar venda a prazo
